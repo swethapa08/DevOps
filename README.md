@@ -30,15 +30,6 @@ Workflows configured with `workflow_dispatch` can be started manually:
 
 ---
 
-## 🔐 Required Secrets & Variables
-
-To run successfully, these workflows require the following [GitHub Actions Secrets](https://github.com/security-for-github-actions/security-guides/using-secrets-in-github-actions) to be configured in **Settings > Secrets and variables > Actions**:
-
-* `DOCKER_HUB_TOKEN` - Authentication token for pushing images.
-* `PROD_DEPLOY_KEY` - SSH private key for the production server.
-
----
-
 ## 🪵 Local Debugging
 
 You can test these GitHub workflows locally before pushing code by using [act](https://github.com).
