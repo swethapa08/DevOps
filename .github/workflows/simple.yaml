@@ -5,7 +5,12 @@ run-name: Run of the simple workflow
 on:
   # Workflow run trigger events
   push:
-    branches: ["main"]
+    branches:
+    - main
+    - 'releases/**'
+    - '!test/**'
+    paths:
+    - README.md
   pull_request:
     branches: ["main"]
   # Manually trigger workflow run
