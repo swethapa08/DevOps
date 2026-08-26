@@ -36,6 +36,7 @@ jobs:
 
   # Second Job
   deploy:
+    if: ${{github.triggering_actor == 'swethapa08'}}
     runs-on: ubuntu-latest
     steps:
       - name: Run if previous Job succeeds
