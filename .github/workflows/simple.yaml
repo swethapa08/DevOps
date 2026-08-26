@@ -33,3 +33,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+  # Second Job
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run if previous Job succeeds
+        run: echo Everything is Working 
