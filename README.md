@@ -1,4 +1,4 @@
-# 🚀 GitHub Workflows
+# 🚀 GitHub Workflows 
 
 This directory contains the automated **CI/CD pipelines** and workflows for this project, powered by [GitHub Actions](https://github.com).
 
